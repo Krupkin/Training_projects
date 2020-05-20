@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/result.css">
+    <link rel="stylesheet" href="./css/animate.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>IQ_TEST</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logotype-link"><img src="./img/logo.png" alt="logotype" class="logotype"></a>
+            <form action="" class="choise-form" id="form">
+                <input type="text" class="form-name" required placeholder="Name">
+                <input type="email" class="form-email" required placeholder="Email">
+                <select name="test" id="category" form="form" class="select category" required>
+                    <option value="1" class="default-option">Choise a category</option>
+                    <option value="27">animal</option>
+                    <option value="3">tres</option>
+                    <option value="4">cinco</option>
+                </select>
+                <select name="test" id="difficulty" form="form" class="select difficulty" required>
+                    <option value="1" class="default-option">Choise a difficulty</option>
+                    <option value="2">easy</option>
+                    <option value="3">medium</option>
+                    <option value="4">hard</option>
+                </select>
+                <button class="form-button" disabled>GO</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <div class="container test-cont">
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+    <script src="./js/index.js"></script>
+</html>

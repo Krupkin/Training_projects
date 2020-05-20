@@ -1,0 +1,39 @@
+.result{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    border: 4px solid #fc7b54;
+    border-radius: 20px;
+    position: relative;
+}
+
+.result::after{
+    content: "\1F517";
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    background-color: #94cdad;
+    cursor: pointer;
+    border-radius: 50%;
+    line-height: 32px;
+}
+
+.result-image{
+    text-align: center;
+    background: #fc7b54;
+    border-radius: 15px;
+}
+
+.result-title{
+    margin: 5px 0;
+}
+
+.result-text{
+    margin-bottom: 5px;
+}
